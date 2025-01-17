@@ -6,6 +6,20 @@
   height: 40vmin;
   pointer-events: none;
 }
+.app {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  background-color: #fff;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {

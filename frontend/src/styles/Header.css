@@ -1,0 +1,11 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: #eaeaea;
+  }
+  
+  .user-info input {
+    padding: 5px;
+  }
+  

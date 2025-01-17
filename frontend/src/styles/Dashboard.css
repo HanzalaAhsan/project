@@ -1,0 +1,20 @@
+.stats {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem;
+  }
+  
+  .stat-card {
+    padding: 1rem;
+    border-radius: 10px;
+    text-align: center;
+    width: 150px;
+    font-size: 20px;
+    color: black;
+  }
+  
+  .green { background-color: #d9fdd3; }
+  .yellow { background-color: #ffffd5; }
+  .blue { background-color: #e6f1ff; }
+  .red { background-color: #ffe5e5; }
+  

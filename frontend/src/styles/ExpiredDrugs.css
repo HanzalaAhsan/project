@@ -1,0 +1,60 @@
+/* Overall Container */
+.expired-drugs-container {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    color: #333;
+  }
+  
+  /* Tabs Section */
+  .header-tabs {
+    display: flex;
+    border-bottom: 2px solid #ddd;
+    margin-bottom: 20px;
+  }
+  
+  .tab {
+    background: #f5f5f5;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  .tab.active {
+    background: #337ab7;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Section Title */
+  .section-title {
+    margin-bottom: 10px;
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Drug Table */
+  .drug-table {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .drug-card {
+    background: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .drug-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5px;
+  }
+  
+  .drug-row strong {
+    color: #555;
+  }
+  
